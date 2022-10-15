@@ -1,0 +1,28 @@
+module ngora(state,l1,l2);
+input reg [2:0] state;
+output [1:0] l1,l2;
+
+always @(state) begin
+	case(state)
+	3'd1: begin
+				l1=2'd0;
+				l2=2'd2;
+			end
+	3'd1: begin
+				l1=2'd1;
+				l2=2'd2;
+			end
+	3'd1: begin
+				l1=2'd2;
+				l2=2'd0;
+			end
+	3'd1: begin
+				l1=2'd2;
+				l2=2'd1;
+			end
+	3'd0: begin
+				l1=2'd3;
+				l2=2'd3;
+			end
+end
+endmodule

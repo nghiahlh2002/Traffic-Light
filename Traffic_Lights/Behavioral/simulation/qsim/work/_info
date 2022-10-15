@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\qsim
+vtraffic
+Z1 !s100 j]TOdb;MnAn4c>FcOkeco3
+Z2 IfjZS_h[R4[V4fB`@ML1RE3
+Z3 V7KQIQ]NIUOPKk9?C8nmXd1
+Z4 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\qsim
+Z5 w1665635128
+Z6 8Mealy.vo
+Z7 FMealy.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Mealy.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1665635129.363000
+Z12 !s107 Mealy.vo|
+!s101 -O0
+vtraffic_vlg_check_tst
+!i10b 1
+Z13 !s100 >?=LIckKR[C_lD4ihghhU1
+Z14 ILUkAJ169gm7n:mZ2kz>gi1
+Z15 VA;SNPFk1fXa4So6A`UZIz2
+R4
+R5
+Z16 8Mealy.vt
+Z17 FMealy.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z18 !s108 1665635129.416000
+Z19 !s107 Mealy.vt|
+Z20 !s90 -work|work|Mealy.vt|
+!s101 -O0
+R10
+vtraffic_vlg_sample_tst
+!i10b 1
+Z21 !s100 z`i@6mGbKmjo@CK`iY9lR1
+Z22 IQRboS49EfE=G=60=lMZ=_1
+Z23 V^6iJ=mFA7PH3H9l0aEMZ23
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vtraffic_vlg_vec_tst
+!i10b 1
+Z24 !s100 ]_UXTe@V=6V_NR]MQUObT0
+Z25 IHdz^Pk2WW3QM9ZbSA:>O]3
+Z26 V9[ZV5C9OKHjZVTJLcbK<d2
+R4
+R5
+R16
+R17
+Z27 L0 493
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

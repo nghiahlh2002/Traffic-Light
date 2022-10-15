@@ -1,0 +1,11 @@
+|traffic
+clk => state~6.DATAIN
+START => always0.IN0
+RST_N => always0.IN1
+RST_N => state~8.DATAIN
+l1[0] <= l1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l1[1] <= l1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l2[0] <= l2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l2[1] <= l2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

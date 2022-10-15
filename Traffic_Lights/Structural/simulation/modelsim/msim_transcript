@@ -1,0 +1,74 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Traffic_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngora.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ngora
+# 
+# Top level modules:
+# 	ngora
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/d_ff.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module d_ff
+# 
+# Top level modules:
+# 	d_ff
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module traffic
+# 
+# Top level modules:
+# 	traffic
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/up_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module up_counter
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	up_counter
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngovao.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ngovao
+# -- Compiling module time_
+# 
+# Top level modules:
+# 	ngovao
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural {C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module traffic_tb
+# 
+# Top level modules:
+# 	traffic_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb 
+# ** Error: (vsim-3170) Could not find 'C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/simulation/modelsim/rtl_work.tb'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Traffic_run_msim_rtl_verilog.do PAUSED at line 16
+vsim work.traffic_tb
+# vsim work.traffic_tb 
+# Loading work.traffic_tb
+# Loading work.traffic
+# Loading work.ngovao
+# Loading work.time_
+# Loading work.up_counter
+# Loading work.d_ff
+# Loading work.HA
+# Loading work.ngora
+add wave -position insertpoint sim:/traffic_tb/*
+run
+run
+run

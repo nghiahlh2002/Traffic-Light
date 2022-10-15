@@ -1,0 +1,18 @@
+module ngovao(en,clk,rst_n,q);
+input en,clk,rst_n;
+output [2:0] q;
+endmodule
+
+
+module time_(en,clk,rst_n,b,c); // b=t1=50000 c=t2=10000
+input en,clk,rst_n;
+output b,c;
+wire[15:0] a,bb,cc;
+up_counter count(en,clk,rst_n,a);
+
+xor xorb[15:0](bb,a,16'b1100001101010000);
+nor norb(b,bb[0], bb[1], bb[2], bb[3], bb[4], bb[5], bb[6], bb[7], bb[8], bb[9], bb[10], bb[11], bb[12], bb[13], bb[14], bb[15]);
+xor xorc[15:0](cc,a,16'b0010011100010000);
+nor norc(c,cc[0], cc[1], cc[2], cc[3], cc[4], cc[5], cc[6], cc[7], cc[8], cc[9], cc[10], cc[11], cc[12], cc[13], cc[14], cc[15]);
+endmodule
+

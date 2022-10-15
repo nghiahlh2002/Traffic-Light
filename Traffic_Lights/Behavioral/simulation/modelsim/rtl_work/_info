@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\modelsim
+vtraffic
+I`dmU`dSUH6?zN<dBIQi1g3
+VT5lS=Hje5PR9mP>F>P2zM3
+Z1 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\modelsim
+w1665648076
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 aPhc9B;eDkhTan]GOYfiP3
+!s85 0
+!s108 1665648087.389000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural -O0
+vtraffic_tb
+!i10b 1
+!s100 2c6hXA0;5hI6cJKoMZM6e3
+I9`=2?dc@>0dbg^6[f4eca2
+VJ3ePLGaW_`<ZLLGSO`]4F1
+R1
+w1665647066
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1665648087.436000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v|
+!s101 -O0
+R3
+R4

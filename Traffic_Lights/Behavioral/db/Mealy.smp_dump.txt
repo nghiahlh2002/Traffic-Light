@@ -1,0 +1,16 @@
+
+State Machine - |traffic|next_state
+Name next_state.STATE2 next_state.STATE3 next_state.STATE1 next_state.INIT next_state.STATE4 
+next_state.INIT 0 0 0 0 0 
+next_state.STATE1 0 0 1 1 0 
+next_state.STATE3 0 1 0 1 0 
+next_state.STATE2 1 0 0 1 0 
+next_state.STATE4 0 0 0 1 1 
+
+State Machine - |traffic|state
+Name state.STATE2 state.STATE3 state.STATE1 state.INIT state.STATE4 
+state.INIT 0 0 0 0 0 
+state.STATE1 0 0 1 1 0 
+state.STATE3 0 1 0 1 0 
+state.STATE2 1 0 0 1 0 
+state.STATE4 0 0 0 1 1 

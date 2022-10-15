@@ -1,0 +1,166 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\modelsim
+vd_ff
+ICnDNL9>ZlH9V:M59iCZdV0
+VB>:N_]dzKP9i239V<?abk1
+Z1 dC:\Users\huynh\Desktop\HDL\Traffic_Lights\Structural\simulation\modelsim
+w1665655293
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/d_ff.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/d_ff.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural -O0
+!i10b 1
+!s100 dVW`1a<kXFS4]:GQ=[NH=3
+!s85 0
+!s108 1665723401.481000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/d_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/d_ff.v|
+!s101 -O0
+vHA
+I:?fhVfIc<9DI;gT?6ELJl1
+VfE=lD7JEJdiJb1>CW95kX2
+R1
+Z5 w1665679059
+Z6 8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/up_counter.v
+Z7 FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/up_counter.v
+L0 48
+R2
+r1
+31
+Z8 !s108 1665723401.588000
+Z9 !s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/up_counter.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/up_counter.v|
+R3
+R4
+n@h@a
+!i10b 1
+!s100 hfR0Z<hc46X`Fb>f40bg83
+!s85 0
+!s101 -O0
+vngora
+I6>56DM97A:U2=IOA;IfS?2
+Vo^YX]A4_`?5l:K3AHAnB>3
+R1
+w1665652953
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngora.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngora.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [>hza2[lNL3O]5^:@[gMY0
+!s85 0
+!s108 1665723401.428000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngora.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngora.v|
+!s101 -O0
+vngovao
+IGUh>b`XKDj;G1@710UD8T0
+Vb8T]oO_>jKCI3cC]hbJed1
+R1
+Z11 w1665723390
+Z12 8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngovao.v
+Z13 FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngovao.v
+L0 1
+R2
+r1
+31
+Z14 !s108 1665723401.641000
+Z15 !s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngovao.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/ngovao.v|
+R3
+R4
+!i10b 1
+!s100 HaTKDSi812mM5f7P<`MS60
+!s85 0
+!s101 -O0
+vtime_
+Io4F`05T6^44R=Wkc1kAbV1
+V?_[^R:AE`lh@BjW8LW@DA2
+R1
+R11
+R12
+R13
+L0 36
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 3G]2ZHji?Q;Sofg3VBbiC0
+!s85 0
+!s101 -O0
+vtraffic
+Ihf]Y0o7TVOYHe3@93YMLO1
+V_Ki8XJ_`o9`Y`ZBA>K^?m3
+R1
+w1665688404
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 B44BLCeWYJaODY<XiYXl`1
+!s85 0
+!s108 1665723401.524000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic.v|
+!s101 -O0
+vtraffic_tb
+!i10b 1
+!s100 JCOe1GE8FHcO;QE3JH:d21
+IlbRDC[Nb7W6mm^K1mEP[62
+VJ3ePLGaW_`<ZLLGSO`]4F1
+R1
+w1665723307
+8C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v
+FC:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1665723401.694000
+!s107 C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural|C:/Users/huynh/Desktop/HDL/Traffic_Lights/Structural/traffic_tb.v|
+!s101 -O0
+R3
+R4
+vup_counter
+I:g<9zJhc`zYZQoPU?]5T40
+V2jEN62aeO2nIA<5YLaTo@1
+R1
+R5
+R6
+R7
+L0 1
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 8KzOBDYTmXWUClIIBKW[00
+!s85 0
+!s101 -O0

@@ -1,0 +1,438 @@
+|traffic
+clk => clk.IN1
+rst_n => rst_n.IN1
+start => start.IN1
+l1[0] <= ngora:outpp.port1
+l1[1] <= ngora:outpp.port1
+l2[0] <= ngora:outpp.port2
+l2[1] <= ngora:outpp.port2
+
+
+|traffic|ngovao:inpp
+en => andd03.IN2
+clk => clk.IN2
+rst_n => rst_n.IN1
+q[0] <= d_ff:d_ff_[0].q
+q[1] <= d_ff:d_ff_[1].q
+q[2] <= d_ff:d_ff_[2].q
+
+
+|traffic|ngovao:inpp|time_:_time
+en => en.IN1
+clk => clk.IN1
+rst_n => rst_n.IN1
+b <= norb.DB_MAX_OUTPUT_PORT_TYPE
+c <= norc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count
+en => c[0].DATAIN
+clk => d_ff:d_ff0[0].clk
+clk => d_ff:d_ff0[1].clk
+clk => d_ff:d_ff0[2].clk
+clk => d_ff:d_ff0[3].clk
+clk => d_ff:d_ff0[4].clk
+clk => d_ff:d_ff0[5].clk
+clk => d_ff:d_ff0[6].clk
+clk => d_ff:d_ff0[7].clk
+clk => d_ff:d_ff0[8].clk
+clk => d_ff:d_ff0[9].clk
+clk => d_ff:d_ff0[10].clk
+clk => d_ff:d_ff0[11].clk
+clk => d_ff:d_ff0[12].clk
+clk => d_ff:d_ff0[13].clk
+clk => d_ff:d_ff0[14].clk
+clk => d_ff:d_ff0[15].clk
+rst_n => d_ff:d_ff0[0].rst_n
+rst_n => d_ff:d_ff0[1].rst_n
+rst_n => d_ff:d_ff0[2].rst_n
+rst_n => d_ff:d_ff0[3].rst_n
+rst_n => d_ff:d_ff0[4].rst_n
+rst_n => d_ff:d_ff0[5].rst_n
+rst_n => d_ff:d_ff0[6].rst_n
+rst_n => d_ff:d_ff0[7].rst_n
+rst_n => d_ff:d_ff0[8].rst_n
+rst_n => d_ff:d_ff0[9].rst_n
+rst_n => d_ff:d_ff0[10].rst_n
+rst_n => d_ff:d_ff0[11].rst_n
+rst_n => d_ff:d_ff0[12].rst_n
+rst_n => d_ff:d_ff0[13].rst_n
+rst_n => d_ff:d_ff0[14].rst_n
+rst_n => d_ff:d_ff0[15].rst_n
+q[0] <= d_ff:d_ff0[0].q
+q[1] <= d_ff:d_ff0[1].q
+q[2] <= d_ff:d_ff0[2].q
+q[3] <= d_ff:d_ff0[3].q
+q[4] <= d_ff:d_ff0[4].q
+q[5] <= d_ff:d_ff0[5].q
+q[6] <= d_ff:d_ff0[6].q
+q[7] <= d_ff:d_ff0[7].q
+q[8] <= d_ff:d_ff0[8].q
+q[9] <= d_ff:d_ff0[9].q
+q[10] <= d_ff:d_ff0[10].q
+q[11] <= d_ff:d_ff0[11].q
+q[12] <= d_ff:d_ff0[12].q
+q[13] <= d_ff:d_ff0[13].q
+q[14] <= d_ff:d_ff0[14].q
+q[15] <= q[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[0]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[1]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[2]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[3]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[4]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[5]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[6]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[7]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[8]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[9]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[10]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[11]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[12]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[13]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[14]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|d_ff:d_ff0[15]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[0]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[1]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[2]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[3]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[4]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[5]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[6]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[7]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[8]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[9]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[10]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[11]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[12]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[13]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:haa[14]
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|time_:_time|up_counter:count|HA:ha0
+c => _xor.IN0
+c => _and.IN0
+q => _xor.IN1
+q => _and.IN1
+cc <= _and.DB_MAX_OUTPUT_PORT_TYPE
+d <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|d_ff:d_ff_[0]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|d_ff:d_ff_[1]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|d_ff:d_ff_[2]
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngovao:inpp|d_ff:resetcount
+clk => nand2.IN0
+clk => nand3.IN1
+d => nand1.IN1
+rst_n => nand1.IN2
+rst_n => nand3.IN2
+rst_n => nand6.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|ngora:outpp
+state[0] => _bc.IN0
+state[0] => l21.IN0
+state[0] => bbcc.IN0
+state[0] => l1[1].DATAIN
+state[1] => _bc.IN1
+state[1] => bbcc.IN1
+state[1] => l21.IN1
+state[2] => l20.IN1
+l1[0] <= l10.DB_MAX_OUTPUT_PORT_TYPE
+l1[1] <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+l2[0] <= l20.DB_MAX_OUTPUT_PORT_TYPE
+l2[1] <= l21.DB_MAX_OUTPUT_PORT_TYPE
+
+

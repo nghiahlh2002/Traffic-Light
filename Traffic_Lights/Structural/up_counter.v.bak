@@ -1,0 +1,50 @@
+module up_counter(en,clk,rst_n,q);
+input en,clk,rst_n;
+output [15:0] q;
+
+wire [15:0] c,d;
+wire ov;
+buf (c[0],en);
+
+HA ha0(c[0],q[0],c[1],d[0]);
+d_ff d_ff0(clk,d[0],rst_n,q[0]);
+HA ha1(c[1],q[1],c[2],d[1]);
+d_ff d_ff1(clk,d[1],rst_n,q[1]);
+HA ha2(c[2],q[2],c[3],d[2]);
+d_ff d_ff2(clk,d[2],rst_n,q[2]);
+HA ha3(c[3],q[3],c[4],d[3]);
+d_ff d_ff3(clk,d[3],rst_n,q[3]);
+HA ha4(c[4],q[4],c[5],d[4]);
+d_ff d_ff4(clk,d[4],rst_n,q[4]);
+HA ha5(c[5],q[5],c[6],d[5]);
+d_ff d_ff5(clk,d[5],rst_n,q[5]);
+HA ha6(c[6],q[6],c[7],d[6]);
+d_ff d_ff6(clk,d[6],rst_n,q[6]);
+HA ha7(c[7],q[7],c[8],d[7]);
+d_ff d_ff7(clk,d[7],rst_n,q[7]);
+HA ha8(c[8],q[8],c[9],d[8]);
+d_ff d_ff8(clk,d[8],rst_n,q[8]);
+HA ha9(c[9],q[9],c[10],d[9]);
+d_ff d_ff9(clk,d[9],rst_n,q[9]);
+HA ha10(c[10],q[10],c[11],d[10]);
+d_ff d_ff10(clk,d[10],rst_n,q[10]);
+HA ha11(c[11],q[11],c[12],d[11]);
+d_ff d_ff11(clk,d[11],rst_n,q[11]);
+HA ha12(c[12],q[12],c[13],d[12]);
+d_ff d_ff12(clk,d[12],rst_n,q[12]);
+HA ha13(c[13],q[13],c[14],d[13]);
+d_ff d_ff13(clk,d[13],rst_n,q[13]);
+HA ha14(c[14],q[14],c[15],d[14]);
+d_ff d_ff14(clk,d[14],rst_n,q[14]);
+HA ha15(c[15],q[15],ov,d[15]);
+d_ff d_ff15(clk,d[15],rst_n,q[15]);
+
+endmodule
+
+module HA(c,q,cc,d);
+input c,q;
+output cc,d;
+
+xor _xor(d,c,q);
+and _and(cc,c,q);
+endmodule

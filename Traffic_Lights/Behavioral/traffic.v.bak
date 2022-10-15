@@ -1,0 +1,67 @@
+module traffic(clk,RST_N,r1,r2,y1,y2,g1,g2);
+// Tham số
+parameter STATE1 = 2'b00;
+parameter STATE2 = 2'b01;
+parameter STATE3 = 2'b10;
+parameter STATE4 = 2'b11;
+// Khai báo port
+input clk, RST_N;
+output r1,r2,y1,y2,g1,g2;
+
+// Khai báo kiểu dữ liệu cho port
+reg [5:0] _time;
+// Mô tả cập nhật trạng thái
+always @(posedge clk, negedge RST_N) begin
+if(RST_N == 1'b0)
+	state<= STATE1;
+else
+	state<= next_state;
+end
+always @(posedge clk) begin
+ _time<=_time+1;
+ if(next_state!=state)
+	_time=0;
+ end
+// Mô tả trạng thái kế tiếp
+always @(posedge clk) begin
+	case(state)
+		STATE1: begin
+		next_state = (_time<50)?STATE1:STATE2;
+		r1=1'b1;
+		g1=1'b0;
+		y1=1'b0;
+		r2=1'b0;
+		g2=1'b1;
+		y2=1'b0;
+					end
+		STATE2: begin
+		next_state = (_time<10)?STATE2:STATE3;
+		r1=1'b1;
+		g1=1'b0;
+		y1=1'b0;
+		r2=1'b0;
+		g2=1'b0;
+		y2=1'b1;
+					end
+		STATE3: begin
+		next_state = (_time<50)?STATE3:STATE4;
+		r1=1'b0;
+		g1=1'b1;
+		y1=1'b0;
+		r2=1'b1;
+		g2=1'b0;
+		y2=1'b0;
+					end
+		STATE4: begin
+		next_state = (_time<10)?STATE4:STATE1;
+		r1=1'b0;
+		g1=1'b0;
+		y1=1'b1;
+		r2=1'b1;
+		g2=1'b0;
+		y2=1'b0;
+					end
+// Mô tả ngõ ra
+
+endmodule
+
